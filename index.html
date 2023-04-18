@@ -18,10 +18,10 @@
         <nav class="navigation">
             <img src="images/JHONTRAKTOR.svg" alt="navigation logo">
             <ul class="nav-ul">
-                <li class="nav-li"><a href="#" class="active">Home</a></li>
-                <li class="nav-li"><a href="#">About Us</a></li>
-                <li class="nav-li"><a href="#">Service</a></li>
-                <li class="nav-li"><a href="#">Project</a></li>
+                <li class="nav-li"><a href="#" class="active nav-ul-a">Home</a></li>
+                <li class="nav-li"><a href="#" class="nav-ul-a">About Us</a></li>
+                <li class="nav-li"><a href="#" class="nav-ul-a">Service</a></li>
+                <li class="nav-li"><a href="#" class="nav-ul-a">Project</a></li>
             </ul>
             <div>
                 <select id="language" class="nav-selection">
@@ -35,32 +35,54 @@
         </nav>
     </header>
     <section class="section-1">
-        <h2>We Prepare For The Future</h2>
-        <p>We provide the best architectural design, contruction, and
-            building maintance services for you.</p>
-        <div class="section-1-btns">
-            <button>Our Services </button>
-            <button>View Project</button>
-        </div>
+            <h2 class="section-1-h">
+                We Prepare <div class="section-1-h-line2"> For The <span class="future">Future</span></div> 
+            </h2>
+            <p class="section-1-p">We provide the best architectural design, contruction, and
+                building maintance services for you.</p>
+            <div class="section-1-btns">
+                <button class="btn-orange">
+                    <div class="btn-orange-content">
+                        Our Services <img src="images/arrow-right-circle.svg" alt="right arrow" class="right-arrow">
+                    </div> 
+                </button>
+                <button class="btn-white">View Project </button>
+            </div>
     </section>
     <section class="section-2">
-        <div>
-            <ul class="section-2-ul">
-                <li class="section-2-li"><a href="#">All Works</a></li>
-                <li class="section-2-li"><a href="#">Construction</a></li>
-                <li class="section-2-li"><a href="#">Architecture</a></li>
-                <li class="section-2-li"><a href="#">Building</a></li>
-                <li class="section-2-li"><a href="#">Renovations</a></li>
-                <li class="section-2-li"><a href="#">Interior</a></li>
-            </ul>
-        </div>
-        <div class="section-2-img-container">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <p>Explore All Projects</p>
+       <div>
+            <div class="section-2-nav">
+                <h2>Featured Project</h2>
+                <ul class="section-2-ul">
+                    <li class="section-2-li "><a href="#" class="active-2 section-2-a">All Works</a></li>
+                    <li class="section-2-li"><a href="#" class="section-2-a">Construction</a></li>
+                    <li class="section-2-li"><a href="#" class="section-2-a">Architecture</a></li>
+                    <li class="section-2-li"><a href="#" class="section-2-a">Building</a></li>
+                    <li class="section-2-li"><a href="#" class="section-2-a">Renovations</a></li>
+                    <li class="section-2-li"><a href="#" class="section-2-a">Interior</a></li>
+                </ul>
+            </div>
+            <div class="section-2-img-container">
+                <div class="section-2-component1">
+                    <h3>Skyskuy Tower</h3>
+                    <p>Renovation & Architecture</p>
+                </div>
+                <div class="section-2-component2">
+                    <h3>The Fallingwater House</h3>
+                    <p>Building & Interior</p>
+                </div>
+                <div class="section-2-component3">
+                    <h3>The Orange Apartemen</h3>
+                    <p>Construction & Interior</p>
+                </div>
+            </div>
+            <div class="section-2-div">
+                <p class="section-2-p">Explore All Projects</p>
+                <img src="images/black-arrow.svg" alt="black arrow">
+            </div>
+       </div>
     </section>
+    
 
 </body>
 </html>
