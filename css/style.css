@@ -338,3 +338,43 @@ body{
     color: #FFFFFF;
 }
 /* styling contact information */
+.contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 670.5px;
+}
+.contact-us-container{
+    padding: 46px 57px;
+}
+.contact-us h2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 38px;
+}
+.contact-us h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 4px;
+}
+.contact-us p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.contact-us button{
+    height: 76px;
+    width: 384px;
+    left: 57px;
+    top: 539px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 105px;
+    background-color: #191A19;
+    color: #FFFFFF;
+}
