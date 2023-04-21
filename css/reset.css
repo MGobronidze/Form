@@ -52,3 +52,16 @@ a{
 *{
     box-sizing: border-box;
 }
+input,
+textarea,
+select,
+button{
+	border: none;
+}
+input:focus,
+textarea:focus,
+select:focus,
+button:focus
+{
+	outline: none;
+}
